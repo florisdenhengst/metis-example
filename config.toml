@@ -37,7 +37,7 @@ publishDir = "docs"
     description = "A website built through Hugo."
     footer = [
         "[<img src='https://simpleicons.org/icons/rss.svg'>](/index.xml)",
-        "[<img src='https://simpleicons.org/icons/github.svg'>](https://github.com/florisdenhengst/metis)",
+        "[<img src='https://simpleicons.org/icons/github.svg'>](https://github.com/florisdenhengst/metis-example)",
         "[<img src='https://simpleicons.org/icons/linkedin.svg'>](https://www.linkedin.com/in/floris-den-hengst-06ab7534/)",
         "| &copy; [Floris den Hengst](https://florisdenhengst.github.io) 2018 -- 2019", 
         ]
