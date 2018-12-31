@@ -1,0 +1,43 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "A minimal Hugo website"
+theme = "metis"
+googleAnalytics = ""
+disqusShortname = ""
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+publishDir = "docs"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 3
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 4
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 5
+
+[params]
+    description = "A website built through Hugo."
+    footer = [
+        "[<img src='https://simpleicons.org/icons/rss.svg'>](/index.xml)",
+        "[<img src='https://simpleicons.org/icons/github.svg'>](https://github.com/florisdenhengst/metis)",
+        "[<img src='https://simpleicons.org/icons/linkedin.svg'>](https://www.linkedin.com/in/floris-den-hengst-06ab7534/)",
+        "| &copy; [Floris den Hengst](https://florisdenhengst.github.io) 2018 -- 2019", 
+        ]

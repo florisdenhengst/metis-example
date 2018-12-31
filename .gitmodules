@@ -1,0 +1,3 @@
+[submodule "themes/metis"]
+	path = themes/metis
+	url = git@github.com:florisdenhengst/metis.git

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Metis | A minimal Hugo website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML'
+		    async></script>
+    <a target=_blank href="https://github.com/florisdenhengst/metis"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"/></a>
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/posts/">Blog</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">About Metis</span></h1>
+
+
+</div>
+
+<main>
+
+
+<p><strong>Metis</strong> is a simple Hugo theme for academics, it features a blog section with <a href="https://www.mathjax.org/">MathJax</a>.
+It is very, very minimal and you probably want to change it up a bit.</p>
+
+<p>The theme is named after <a href="https://www.greekmythology.com/Titans/Metis/metis.html">Metis</a>, the
+Titaness of wisdom, skill and craft who helped Zeus to free his siblings from his fathers&rsquo; stomach
+by creating a potion causing him to vomit them out.</p>
+
+<h1 id="config-toml">config.toml</h1>
+
+<pre><code>[permalinks]
+    post = &quot;/post/:year/:month/:day/:slug/&quot;
+    note = &quot;/note/:year/:month/:day/:slug/&quot;
+</code></pre>
+
+<p>The menu can be defined here:</p>
+
+<pre><code>[[menu.main]]
+    name = &quot;Home&quot;
+    url = &quot;/&quot;
+    weight = 1
+[[menu.main]]
+    name = &quot;About&quot;
+    url = &quot;/about/&quot;
+    weight = 2
+[[menu.main]]
+    name = &quot;Categories&quot;
+    url = &quot;/categories/&quot;
+    weight = 3
+[[menu.main]]
+    name = &quot;Tags&quot;
+    url = &quot;/tags/&quot;
+    weight = 4
+[[menu.main]]
+    name = &quot;Subscribe&quot;
+    url = &quot;/index.xml&quot;
+</code></pre>
+
+<p>Alternatively, you can add <code>menu: main</code> to the front matter of your content to make them show up in the menu.</p>
+
+<p>The page footer can be defined in <code>.Params.footer</code>, and the text is treated as Markdown, e.g.,</p>
+
+<pre><code>[params]
+    footer = &quot;&amp;copy; [Floris den Hengst](https://florisdenhengst.github.io)&quot;
+</code></pre>
+
+<h1 id="customization">Customization</h1>
+
+<p>There are two layout files under <code>layouts/partials/</code> that you may want to override: <code>head_custom.html</code> and <code>foot_custom.html</code>.</p>
+
+<p>There are only two CSS files in <code>static/css/fonts.css</code> and <code>static/css/style.css</code> which you may alter as you please.</p>
+
+<h1 id="acknowledgements">Acknowledgements</h1>
+
+<p>This theme wouldn&rsquo;t have been possible without the awesome Hugo documentation and the excellent <a href="https://xmin.yihui.name/">Xmin</a> theme as an example.</p>
+
+</main>
+
+  <footer>
+  <hr/>
+  
+  
+  <a href="/index.xml"><img src='https://simpleicons.org/icons/rss.svg'></a>
+  
+  <a href="https://github.com/florisdenhengst/metis"><img src='https://simpleicons.org/icons/github.svg'></a>
+  
+  <a href="https://www.linkedin.com/in/floris-den-hengst-06ab7534/"><img src='https://simpleicons.org/icons/linkedin.svg'></a>
+  
+  | &copy; <a href="https://florisdenhengst.github.io">Floris den Hengst</a> 2018 &ndash; 2019
+  
+  </footer>
+  </body>
+</html>
+
