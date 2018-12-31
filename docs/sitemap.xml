@@ -3,20 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://florisdenhengst.github.io/metis-example/about/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://florisdenhengst.github.io/metis-example/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://florisdenhengst.github.io/metis-example/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://florisdenhengst.github.io/metis-example/tags/</loc>
     <priority>0</priority>
   </url>
   

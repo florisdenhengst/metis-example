@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://florisdenhengst.github.io/metis-example/"
 languageCode = "en-us"
 title = "A minimal Hugo website"
 theme = "metis"
