@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>casual on A minimal Hugo website</title>
+    <link>https://florisdenhengst.github.io/metis-example/categories/casual/</link>
+    <description>Recent content in casual on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Dec 2018 10:06:22 +0100</lastBuildDate>
+    
+	<atom:link href="https://florisdenhengst.github.io/metis-example/categories/casual/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://florisdenhengst.github.io/metis-example/posts/my-first-post/</link>
+      <pubDate>Mon, 31 Dec 2018 10:06:22 +0100</pubDate>
+      
+      <guid>https://florisdenhengst.github.io/metis-example/posts/my-first-post/</guid>
+      <description>This is my first post on the Metis example site.</description>
+    </item>
+    
+  </channel>
+</rss>

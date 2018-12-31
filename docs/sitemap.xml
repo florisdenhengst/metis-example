@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://florisdenhengst.github.io/metis-example/posts/image-post/</loc>
+    <lastmod>2018-12-31T11:44:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://florisdenhengst.github.io/metis-example/posts/a-mathjax-post/</loc>
+    <lastmod>2018-12-31T10:35:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://florisdenhengst.github.io/metis-example/posts/my-first-post/</loc>
+    <lastmod>2018-12-31T10:06:22+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://florisdenhengst.github.io/metis-example/about/</loc>
   </url>
   
@@ -13,10 +28,41 @@
   
   <url>
     <loc>https://florisdenhengst.github.io/metis-example/</loc>
+    <lastmod>2018-12-31T11:44:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://florisdenhengst.github.io/metis-example/posts/</loc>
+    <lastmod>2018-12-31T11:44:17+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://florisdenhengst.github.io/metis-example/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://florisdenhengst.github.io/metis-example/categories/casual/</loc>
+    <lastmod>2018-12-31T10:06:22+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://florisdenhengst.github.io/metis-example/tags/first-post/</loc>
+    <lastmod>2018-12-31T10:06:22+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://florisdenhengst.github.io/metis-example/tags/mathjax/</loc>
+    <lastmod>2018-12-31T10:35:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://florisdenhengst.github.io/metis-example/categories/technical/</loc>
+    <lastmod>2018-12-31T10:35:08+01:00</lastmod>
     <priority>0</priority>
   </url>
   

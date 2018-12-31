@@ -14,23 +14,23 @@ publishDir = "docs"
 
 [[menu.main]]
     name = "Home"
-    url = "/"
+    url = ""
     weight = 1
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "about/"
     weight = 2
 [[menu.main]]
     name = "Blog"
-    url = "/posts/"
+    url = "posts/"
     weight = 3
 [[menu.main]]
     name = "Categories"
-    url = "/categories/"
+    url = "categories/"
     weight = 4
 [[menu.main]]
     name = "Tags"
-    url = "/tags/"
+    url = "tags/"
     weight = 5
 
 [params]
