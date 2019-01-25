@@ -51,3 +51,7 @@ footer img{
   display: block;
   float: left;
 }
+
+a {
+  color: black;
+}
